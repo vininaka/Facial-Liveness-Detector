@@ -1,0 +1,17 @@
+{
+    "blink_detection":{
+        "EYE_AR_THRESH":0.23,
+        "EYE_AR_CONSEC_FRAMES":1,
+        "eye_landmarks_model":"blink_detection/model/shape_predictor_68_face_landmarks.dat"
+    },
+    "emotion_detection":{
+        "emotion_model":"emotion_detection/model/emotion_model.h5",
+        "width":64,
+        "height":64,
+        "rgb":false,
+        "labels":["neutral","happy","surprise","sad","angry"]
+    },
+    "profile_detection":{
+        "perfil_face_model":"profile_detection/model/haarcascade_profileface.xml"
+    }
+}
